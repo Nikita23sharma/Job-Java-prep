@@ -1,5 +1,5 @@
 package com.nikita.springcore.model;
 
-public class model {
+public class Account {
 
 }
