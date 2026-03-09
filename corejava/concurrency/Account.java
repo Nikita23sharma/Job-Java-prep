@@ -8,6 +8,9 @@ public class Account {
     public int getId() {
         return id;
     }
+    // public synchronized double getBalance() {
+    //     return balance;
+    // }
     public double getBalance() {
         return balance;
     }
