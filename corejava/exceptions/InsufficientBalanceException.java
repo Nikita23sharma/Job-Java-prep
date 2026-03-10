@@ -1,5 +1,7 @@
-package 01-core-java.exceptions;
-
-public class InsufficientBalanceException {
+public class InsufficientBalanceException extends Exception {
+    public InsufficientBalanceException(String message) {
+        super(message);
+    }       
+    
     
 }
